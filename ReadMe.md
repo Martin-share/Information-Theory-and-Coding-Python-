@@ -21,7 +21,8 @@
 
 由下图可见，有五个按钮，分别实现五个题目对应的功能，分别调用五个python 文件来进行对应的编码。在文本框中输入被编码的字符串，点击不同的按钮，即可得到字符及其对应的编码，编码结果，译码结果和编码效率。Huffman编码为Huffman.py，Fano编码为fano.py, 游程编码为run_length2.py, 算数编码为signal.py, 灰度图像编码为bmp_huffman.py，主界面源文件为main.ui和UI_main.py, 主函数为main.py 负责将编码程序和界面程序统一管理。下图为软件主窗口图：
 
-![image-20220718085420192](D:\csdn资源包\我上传的\csdn.assets\image-20220718085420192.png)                   
+![image-20220718085420192](https://user-images.githubusercontent.com/93062634/190139320-cd00bc82-5014-4240-a530-ed621b036af2.png)
+                
 
 以下为各个子文件的模块划分：
 
@@ -89,9 +90,7 @@
 ## 界面功能
 
 点击相应的按钮实现相应的功能
-
-![界面](D:\csdn资源包\我上传的\csdn.assets\image-20220718085827102-16581060217751.png)
-
-!(D:\csdn资源包\我上传的\csdn.assets\image-20220718085827102.png)
-
-![图像](D:\csdn资源包\我上传的\csdn.assets\image-20220718085634403.png)	
+![image-20220718085634403](https://user-images.githubusercontent.com/93062634/190139383-4f494f4e-9244-457b-8e5a-eaefef78bc71.png)
+![image-20220718085648186](https://user-images.githubusercontent.com/93062634/190139393-cd434cff-cd64-4ce1-9b3f-60cbdb95320d.png)
+![image-20220718085827102](https://user-images.githubusercontent.com/93062634/190139399-c039ac71-eb8c-40ac-b40c-45cb4e97d5a1.png)
+![image-20220718085827102-16581060217751](https://user-images.githubusercontent.com/93062634/190139407-cce0bae7-40fa-4d4e-af1f-81d6440f0536.png)
